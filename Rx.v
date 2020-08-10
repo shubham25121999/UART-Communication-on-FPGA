@@ -1,4 +1,4 @@
-module UART_rx (Clk,Rst_n,RxEn,RxData,RxDone,Rx,Tick,NBits);		//Define my module as UART_rx
+module UART_rs232_rx (Clk,Rst_n,RxEn,RxData,RxDone,Rx,Tick,NBits);		//Define my module as UART_rs232_rx
 
 input Clk, Rst_n, RxEn,Rx,Tick;		//Define 1 bit inputs
 input [3:0]NBits;			//Define 4 bits inputs
